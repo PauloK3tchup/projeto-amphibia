@@ -9,12 +9,6 @@ body{
     margin: 0;
 }
 
-#header img{
-    margin: 0.5%;
-    margin-left: 2%;
-    width: 10%;
-    height: auto;
-}
 
 #app{
     height: 100%;
@@ -24,7 +18,7 @@ body{
     grid-template-areas:
     "header header"
     "sidenav content"
-    "sidenav footer";
+    "footer footer";
 }
 
 #footer{
@@ -40,6 +34,47 @@ body{
 #header{
     grid-area: header;
     background-color: aquamarine;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 5px;  
+}
+
+.header-direita {
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+
+#header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  transition: 0.25s;
+}
+
+#header a.logo {
+    width: auto;
+}
+
+#header img{
+    margin: 0.5%;
+    margin-left: 2%;
+    min-width: 10%;
+    width: 10%;
+    max-width: 10%;
+    height: auto;
+    float: left;
+}
+
+#header a:hover {
+    background-color: rgb(0, 0, 0);
+    color: aquamarine;
 }
 
 #content{
@@ -55,4 +90,41 @@ body{
 #sidenav{
     grid-area: sidenav;
     background-color: aquamarine;
+}
+
+@media screen and (max-width: 500px) {
+    .header img {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-direita {
+      float: none;
+    }
+  }
+
+.Opção{
+    color: white;
+    width: 540px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    transition: 0.25s;
+    text-align: center;
+    font-size: 50px;
+    background-image: url(https://poltronanerd.com.br/wp-content/uploads/2019/08/meetAmphibia_1024.jpg);
+    transition: 0.25s;
+    filter: brightness(0.3);
+}
+
+.Opção:hover {
+    filter: brightness(1);
+}
+
+#OutrasOpções{
+  grid-area: content;
+  display: flex;
+  flex-wrap: wrap;
 }
