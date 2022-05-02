@@ -4,5 +4,7 @@ export default {
 };
 </script>
 <template>
-  <div class="Opção">Teste</div>
+  <button class="Opção">
+    <div>{{ texto }}</div>
+  </button>
 </template>

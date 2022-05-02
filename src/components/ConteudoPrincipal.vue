@@ -15,10 +15,10 @@ export default {
       <img src="../assets/img/Fundo_Casa-dos-Plantas.jpg" alt="" />
     </div>
     <div id="OutrasOpções">
-      <CompOpcao />
-      <CompOpcao />
-      <CompOpcao />
-      <CompOpcao />
+      <CompOpcao class="Lore" texto="LORE" />
+      <CompOpcao class="Episódios" texto="EPISODIOS" />
+      <CompOpcao class="Segredos" texto="SEGREDOS" />
+      <CompOpcao class="Personagens" texto="PERSONAGENS" />
     </div>
   </main>
 </template>

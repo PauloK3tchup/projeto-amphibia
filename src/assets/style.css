@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Amphibia; src: url('Amphibia-Alphabet.otf');
+}
+
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
@@ -37,7 +41,8 @@ body{
     position: fixed;
     width: 100%;
     overflow: hidden;
-    padding: 10px 5px;  
+    padding: 10px 5px;
+    z-index: 1;
 }
 
 .header-direita {
@@ -102,29 +107,3 @@ body{
       float: none;
     }
   }
-
-.Opção{
-    color: white;
-    width: 540px;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 15px;
-    padding: 20px;
-    margin: 20px;
-    transition: 0.25s;
-    text-align: center;
-    font-size: 50px;
-    background-image: url(https://poltronanerd.com.br/wp-content/uploads/2019/08/meetAmphibia_1024.jpg);
-    transition: 0.25s;
-    filter: brightness(0.3);
-}
-
-.Opção:hover {
-    filter: brightness(1);
-}
-
-#OutrasOpções{
-  grid-area: content;
-  display: flex;
-  flex-wrap: wrap;
-}
