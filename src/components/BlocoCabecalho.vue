@@ -5,7 +5,7 @@
     <div class="header-direita">
       <a href="#Introdução">Introdução</a>
       <a href="#Resumo">Resumo</a>
-      <a href="#OutrasOpções">Opções</a>
+      <a href="#OutrasOpções">Viajar</a>
     </div>
   </header>
 </template>

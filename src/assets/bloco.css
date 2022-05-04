@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Amphibia; src: url('Amphibia-Alphabet.otf');
+    font-family: Amphibia; src: url('Amphibifont-Regular.ttf');
 }
 
 .Opção{
@@ -17,31 +17,35 @@
     padding: 10px;
     transition: 0.25s;
     text-align: center;
-    font-size: 30px;
-
-    transition: 0.25s;
-    filter: brightness(0.2);
+    font-size: 60px;
 
     display: block;
-    margin: 2.5%;
-    padding: 0;
     border: none;
     background: none;
     cursor: pointer;
+
+    transition: 0.25s;
+    filter: brightness(0.2);
 }
 
 .Opção:hover {
     filter: brightness(1);
     transform: scale(1.1) rotate(5deg);
     font-family: sans-serif;
-    font-size: 33px;
+    font-size: 55px;
 }
 
 #OutrasOpções{
-  grid-area: content;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+    width: 80%;
+
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 200px 200px;
+    gap: 5%;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Personagens{
