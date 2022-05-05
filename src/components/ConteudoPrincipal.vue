@@ -47,15 +47,15 @@ export default {
       <h2>
         Abaixo você poderá escolher qual aspecto do desenho deseja explorar
       </h2>
-      <img src="../assets/img/Caixa-De-Música.jpg" alt="Caixa da calamidade">
-      <h1 class="glow-on-hover">Para onde deseja ir?</h1>
+      <img src="../assets/img/Caixa-De-Música.jpg" alt="Caixa da calamidade" />
+      <h1 class="glow">Para onde deseja ir?</h1>
     </div>
     <div class="container">
       <div id="OutrasOpções">
-        <CompOpcao class="Lore" texto="Lore" />
-        <CompOpcao class="Episódios" texto="Episodios" />
-        <CompOpcao class="Segredos" texto="Segredos" />
-        <CompOpcao class="Personagens" texto="Personagens" />
+        <CompOpcao class="Lore glow" texto="Lore" />
+        <CompOpcao class="Episódios glow" texto="Episodios" />
+        <CompOpcao class="Segredos glow" texto="Segredos" />
+        <CompOpcao class="Personagens glow" texto="Personagens" />
       </div>
     </div>
   </main>
