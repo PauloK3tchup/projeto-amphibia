@@ -18,6 +18,17 @@ body{
     text-justify: inter-word;
 }
 
+.comecoP{
+    text-align: center;
+    font-size: 70px;
+}
+
+#Introdução{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
 #app{
     height: 100%;
     display: grid;
