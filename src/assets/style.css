@@ -117,6 +117,37 @@ body{
     background-color: aquamarine;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  td.codf{
+      font-size: 50px;
+  }
+  
+
+.codificado{
+    font-family: Amphibia;
+    text-align: center;
+    font-style: italic;
+}
+
+.codf{
+    font-family: Amphibia;
+}
+
 @media screen and (max-width: 500px) {
     .header img {
       float: none;
