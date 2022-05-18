@@ -1,9 +1,19 @@
-<script></script>
+<script>
+import BlocoCabecalho2 from "@/components/BlocoCabecalho2.vue";
+export default {
+  components: { BlocoCabecalho2 },
+};
+</script>
 <template>
+  <BlocoCabecalho2 />
   <main id="content">
     <h1 class="comecoP glow">Episódios</h1>
     <h1 class="codificado">Come from beyond to expel the night</h1>
-    <img src="../assets/img/Titulo.gif" alt="Title card do desenho" />
+    <img
+      src="../assets/img/Titulo.gif"
+      alt="Title card do desenho"
+      class="grande"
+    />
     <h1>Uma lista dos episódios do desenho em ordem de lançamento.</h1>
     <h3>
       Caso você esteja perdido ou queira saber quando se passa algum episódio.

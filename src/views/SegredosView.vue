@@ -1,9 +1,15 @@
-<script></script>
+<script>
+import BlocoCabecalho2 from "@/components/BlocoCabecalho2.vue";
+export default {
+  components: { BlocoCabecalho2 },
+};
+</script>
 <template>
+  <BlocoCabecalho2 />
   <main id="content">
     <h1 class="comecoP glow">Segredos</h1>
     <h1 class="codificado">Should they fight or embrace the fall</h1>
-    <img src="../assets/img/Lua.png" alt="A Lua de Amphibia" />
+    <img src="../assets/img/Lua.png" alt="A Lua de Amphibia" class="grande" />
     <h1>
       Uma coisa meio óbvia que você deve ter reparado nesse site é a utilização
       de certos símbolos no lugar de letras.
@@ -15,7 +21,7 @@
       importantes.
     </h3>
     <img
-      src="../assets/img/Livro da profecia.jpg"
+      src="../assets/img/Livro-da-profecia.jpg"
       alt="Livro da profecia do Rei Andrias"
     />
     <h1>

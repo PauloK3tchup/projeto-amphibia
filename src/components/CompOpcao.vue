@@ -5,6 +5,8 @@ export default {
 </script>
 <template>
   <button class="Opção">
-    <div>{{ texto }}</div>
+    <div>
+      <p class="semDec">{{ texto }}</p>
+    </div>
   </button>
 </template>

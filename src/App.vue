@@ -1,17 +1,9 @@
 <script>
-import ConteudoPrincipal from "@/components/ConteudoPrincipal.vue";
-import BlocoRodape from "@/components/BlocoRodape.vue";
-import BlocoCabecalho from "@/components/BlocoCabecalho.vue";
+import HomeView from "@/views/HomeView.vue";
 export default {
-  components: {
-    ConteudoPrincipal,
-    BlocoRodape,
-    BlocoCabecalho,
-  },
+  components: { HomeView },
 };
 </script>
 <template>
-  <BlocoCabecalho />
-  <ConteudoPrincipal />
-  <BlocoRodape />
+  <HomeView />
 </template>

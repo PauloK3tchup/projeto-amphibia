@@ -1,5 +1,11 @@
-<script></script>
+<script>
+import BlocoCabecalho2 from "@/components/BlocoCabecalho2.vue";
+export default {
+  components: { BlocoCabecalho2 },
+};
+</script>
 <template>
+  <BlocoCabecalho2 />
   <main id="content">
     <h1 class="comecoP glow">Lore</h1>
     <h1 class="codificado">Three stars burning bright</h1>
@@ -16,7 +22,7 @@
         isso com o objetivo de encontrar algúem digno o suficiente para assumir
         seu papel de guardião de todos os mundos.
         <img
-          src="../assets/img/Andrias e Barrel.jpg"
+          src="../assets/img/Andrias_e_Barrel.jpg"
           alt="Andrias e Barrel"
           class="Foto-lado"
         />

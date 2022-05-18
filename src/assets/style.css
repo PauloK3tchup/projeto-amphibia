@@ -2,6 +2,23 @@
     font-family: Amphibia; src: url('Amphibifont-Regular.ttf');
 }
 
+p.semDec {
+    text-decoration: none;
+}
+
+.linkRede{
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: auto;
+    float: left;
+}
+
+.icone{
+    width: 30px;
+    margin-bottom: 4px;
+}
+
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
@@ -123,7 +140,6 @@ body{
     width: 100%;
     height: auto;
 }
-
 
 #sidenav{
     grid-area: sidenav;
